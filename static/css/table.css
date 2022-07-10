@@ -1,0 +1,14 @@
+#tdatos{
+    border-radius: 6px;
+}
+#tdatos thead tr{
+    background: url("../img/bg/bg_th.png");
+    background-repeat: repeat-x;
+}
+#tdatos thead tr th{
+    text-align: center;
+    font-size: 12px;
+}
+#tdatos > tbody > tr:nth-of-type(even) {
+    background-color: #eee;
+}

@@ -1,0 +1,72 @@
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Undefined variable: venta in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/dao/VentaDao.php on line 21
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 20
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Undefined variable: cliente in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/dao/VentaDao.php on line 37
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 33
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 55
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 62
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 85
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 85
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 86
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 87
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 88
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 108
+[04-Mar-2021 23:23:41 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 110
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 130
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 135
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 140
+[04-Mar-2021 23:23:41 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 145
+[04-Mar-2021 23:23:41 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home1/eholguinm/sgsi/sistema/pages/sgsc/app/dao/VentaDao.php:21)' in /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php(999): FPDF->_checkoutput()
+#2 /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php(149): FPDF->Output()
+#3 {main}
+  thrown in /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php on line 271
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Undefined variable: venta in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/dao/VentaDao.php on line 21
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 20
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Undefined variable: cliente in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/dao/VentaDao.php on line 37
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 33
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 55
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 62
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 85
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 85
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 86
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 87
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 88
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 108
+[04-Mar-2021 23:23:52 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 110
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 130
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 135
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 140
+[04-Mar-2021 23:23:52 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 145
+[04-Mar-2021 23:23:52 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home1/eholguinm/sgsi/sistema/pages/sgsc/app/dao/VentaDao.php:21)' in /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php(999): FPDF->_checkoutput()
+#2 /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php(149): FPDF->Output()
+#3 {main}
+  thrown in /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php on line 271
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Undefined variable: venta in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/dao/VentaDao.php on line 21
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 20
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Undefined variable: cliente in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/dao/VentaDao.php on line 37
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 33
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 55
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 62
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 85
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 85
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 86
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 87
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 88
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 108
+[11-Mar-2021 22:12:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 110
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 130
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 135
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 140
+[11-Mar-2021 22:12:01 America/Chicago] PHP Notice:  Trying to get property of non-object in /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php on line 145
+[11-Mar-2021 22:12:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home1/eholguinm/sgsi/sistema/pages/sgsc/app/dao/VentaDao.php:21)' in /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php:271
+Stack trace:
+#0 /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php(999): FPDF->_checkoutput()
+#2 /home1/eholguinm/sgsi/sistema/pages/sgsc/app/reporte/vReporteVentaFirtsPdf.php(149): FPDF->Output()
+#3 {main}
+  thrown in /home1/eholguinm/sgsi/sistema/pages/sgsc/static/fpdf181/fpdf.php on line 271
